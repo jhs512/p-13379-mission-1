@@ -16,6 +16,7 @@ public class Calc {
         return switch (operator) {
             case "+" -> sum + num;
             case "-" -> sum - num;
+            case "*" -> sum * num;
             default -> 0;
         };
     }
